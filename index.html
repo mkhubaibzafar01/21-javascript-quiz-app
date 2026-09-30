@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <section class="quiz-card">
+
+            <div class="top">
+                <div>
+                    <p class="eyebrow">JAVASCRIPT PROJECT</p>
+                    <h1>Quick Quiz 🧠</h1>
+                </div>
+
+                <div class="score-box">
+                    Score
+                    <strong id="score">0</strong>
+                </div>
+            </div>
+
+            <div class="progress-area">
+
+                <div class="progress-info">
+                    <span id="questionNumber">
+                        Question 1 of 8
+                    </span>
+
+                    <span id="progressPercent">
+                        0%
+                    </span>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+
+            </div>
+
+            <div id="quizArea">
+
+                <h2 id="question">
+                    Question goes here
+                </h2>
+
+                <div id="options" class="options">
+                </div>
+
+                <button id="nextBtn" class="next-btn">
+                    Next Question
+                </button>
+
+            </div>
+
+            <div id="resultArea" class="result hidden">
+
+                <div class="result-icon">🎉</div>
+
+                <h2>Quiz Completed!</h2>
+
+                <p>Your final score is</p>
+
+                <div class="final-score">
+                    <span id="finalScore">0</span>/8
+                </div>
+
+                <p id="resultMessage"></p>
+
+                <button id="restartBtn" class="restart-btn">
+                    Try Again
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
